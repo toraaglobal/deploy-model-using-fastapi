@@ -142,13 +142,6 @@ Railway is a platform that allows you to deploy applications with ease. Follow t
     - Choose the repository from your list of repositories.
 
 
-- Deployment Settings:
-Railway will handle the deployment automatically. Ensure your Procfile is set up to run Django migrations and start the application:
-```
-release: python manage.py migrate
-web: gunicorn main.wsgi
-```
-
 - Deploy the Project:
     - Once everything is configured, click "Deploy" to start the deployment process.
     - After deployment, you can access your site via the domain provided by Railway, or you can set up a custom domain (e.g., www.toraaglobal.com).
