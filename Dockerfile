@@ -1,4 +1,4 @@
-FROM frolvlad/alpine-miniconda3:python3.9
+FROM python:3.9-slim
 
 COPY requirements.txt .
 
