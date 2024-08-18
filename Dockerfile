@@ -7,7 +7,7 @@ RUN pip install -r requirements.txt && \
 
 EXPOSE 80
 
-COPY ./main.py /app
+COPY ./main.py /main.py
 
 COPY ./models /models
 
